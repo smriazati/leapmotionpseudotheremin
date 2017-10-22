@@ -7,6 +7,11 @@
 
 ## about the theremin
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Theramin-Alexandra-Stepanoff-1930.jpg/800px-Theramin-Alexandra-Stepanoff-1930.jpg" width="600px"/>
+
+Alexandra Stepanoff playing the theremin on NBC Radio, 1930. <a href="https://en.wikipedia.org/wiki/Theremin">Source</a>
+
+
 The theremin is a unique and interesting instrument invented by the Russian inventor and acoustics professor Leon Theremin. Since its invention, the instrument has fascinated and perplexed audiences. The theremin was one of the first electronic synthesizers, but since it is quite difficult to play, and unlike anything familiar like a piano or guitar, it was never fully embraced by the musical community in the way that other synthesizers like the Moog synthesizer were. Instead, it has a cult status and the sound produced by the instrument will be familiar to anyone who's ever seen a horror movie or Pixar's Wall-E. 
 
 Here are some interesting YouTube compositions and demonstrations:
