@@ -48,10 +48,10 @@ Gestural control is difficult without some sort of visual feedback. In any inter
 
 Through this prototyping process, I realized that the Leap Motion controller is not 100% reliable, meaning it often mixed up the left and right hands, or failed to detect one or the other. I decided to build a feedback system so the user would be able to see what was going on. I designed functions to display messages on the top of the screen to explain what the Leap Motion was detecting. I also designed a start screen to explain and further brand the experience.
 
-<img src="comp-media-midterm/data/instructions.jpg" width="600px" />
+<img src="compmediamidterm/data/instructions.jpg" width="600px" />
 
 
-### <a href="comp-media-midterm/comp-media-midterm.pde">View the Processing sketch here.</a>
+### <a href="compmediamidterm/compmediamidterm.pde">View the Processing sketch here.</a>
 
 &nbsp;
 
