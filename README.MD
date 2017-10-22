@@ -1,21 +1,28 @@
 
-#pseudo theremin 
+# pseudo theremin 
 
-The pseudo theremin is an experiment in gestural control, audio synthesis and interface design. 
+### The pseudo theremin is an experiment in gestural control, audio synthesis and interface design. 
+
+&nbsp;
 
 ## about the theremin
 
-The theremin is a unique and interesting instrument invented by the Russian inventor and acoustics professor Leon Theremin. Since its invention, the instrument has fascinated and perplexed audiences. The theremin was one of the first electronic synthesizers, but since it is quite difficult to play, and unlike anything familiar like a piano or guitar, it was never fully embraced by the musical community in the way that other synthesizers like the Moog synthesizer were. Instead, it has a cult status and the sound produced by the instrument will be familiar to anyone who's ever seen a horror movie or Pixar's Wall-E. Here are some interesting YouTube compositions:
+The theremin is a unique and interesting instrument invented by the Russian inventor and acoustics professor Leon Theremin. Since its invention, the instrument has fascinated and perplexed audiences. The theremin was one of the first electronic synthesizers, but since it is quite difficult to play, and unlike anything familiar like a piano or guitar, it was never fully embraced by the musical community in the way that other synthesizers like the Moog synthesizer were. Instead, it has a cult status and the sound produced by the instrument will be familiar to anyone who's ever seen a horror movie or Pixar's Wall-E. 
+
+Here are some interesting YouTube compositions and demonstrations:
+
+* <a href="https://www.youtube.com/watch?v=K6KbEnGnymk">Over the Rainbow</a>
+* <a href="https://www.youtube.com/watch?v=PjnaciNT-wQ">Debussy's Clair de Lune</a>
+* <a href="https://www.youtube.com/watch?v=e3im1HUbPjE">TED: Clara Venice plays the Theremin</a>
 
 The theremin is particularly special because the instrument is controlled without physical touch. Instead, it works by turning each of the musician's hands into one "plate" of a capacitor; one hand oscillates the volume of the emitted signal, and the other controls the pitch. 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Block_diagram_Theremin.png" />
 
-Diagram Source: <a href="https://en.wikipedia.org/wiki/Theremin">Wikipedia</a>
+Source: <a href="https://en.wikipedia.org/wiki/Theremin">Wikipedia</a>
 
-* <a href="https://www.youtube.com/watch?v=K6KbEnGnymk"">Over the Rainbow</a>
-* <a href="https://www.youtube.com/watch?v=PjnaciNT-wQ"">Debussy's Clair de Lune</a>
-* <a href="https://www.youtube.com/watch?v=e3im1HUbPjE "">TED: Clara Venice plays the Theremin</a>
+
+&nbsp;
 
 
 ## about this prototype
@@ -26,8 +33,8 @@ I was drawn to study the use of the Leap Motion gestural controller for this pro
 
 I started by researching sound synthesis in Processing through <a href="https://processing.org/tutorials/sound">this Processing tutorial</a>, which begins with the above quote. The tutorial was a fascinating summary of the history of computer-aided music production, a topic I've grown increasingly interested in since reading <a href="https://www.goodreads.com/book/show/37535.Analog_Days">Analog Days: The Invention and Impact of the Moog Synthesizer</a>. 
 
-<img src="https://processing.org/tutorials/sound/imgs/56-1.svg" />
-
+<!--<img src="https://processing.org/tutorials/sound/imgs/56-1.svg" />
+-->
 I experimented with the Minim library and piano samples from freesound.org to create harmonic scales, but ultimately decided to use Processing's Sound library instead. I adapted an example from the above-mentioned Sound tutorial as the baseline for the synthesizer. This example used the mouse position to control the frequency of the emitted sine wave, so my next step was to learn how to extract the positions of the index fingers as detected by the Leap Motion.
 
 Luckily, there is a <a href="https://github.com/nok/leap-motion-processing">Leap Motion for Processing library</a> that comes with a few examples. I also found some other tutorials, cited in the source section below. 
