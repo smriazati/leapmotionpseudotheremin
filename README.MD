@@ -32,14 +32,12 @@ Source: <a href="https://en.wikipedia.org/wiki/Theremin">Wikipedia</a>
 
 ## about this prototype
 
-I was drawn to study the use of the Leap Motion gestural controller for this project. Controlling an interface through gesture feels like magic to me, as though conjuring up a spell. Creation in interface through gesture is built with code, and the logic of code is intuitive in the same way as magic can be. And like magic, coding requires dedication and practice to master. In this way, the theremin is quite similar - the gestural control of the instrument feels like magic, but in fact, it relies on the invisible force of electrical current. My goal was to explore the combination of these metaphors (coding as creative/magic) and apply it to a new field for me: audio synthesis. 
-
 <blockquote>The history of music is, in many ways, the history of technology. </blockquote>
+
+I was drawn to study the use of the Leap Motion gestural controller for this project. Controlling an interface through gesture feels like magic to me, as though conjuring up a spell. Creation in interface through gesture is built with code, and the logic of code is intuitive in the same way as magic can be. And like magic, coding requires dedication and practice to master. In this way, the theremin is quite similar - the gestural control of the instrument feels like magic, but in fact, it relies on the invisible force of electrical current. My goal was to explore the combination of these metaphors (coding as creative/magic) and apply it to a new field for me: audio synthesis. 
 
 I started by researching sound synthesis in Processing through <a href="https://processing.org/tutorials/sound">this Processing tutorial</a>, which begins with the above quote. The tutorial was a fascinating summary of the history of computer-aided music production, a topic I've grown increasingly interested in since reading <a href="https://www.goodreads.com/book/show/37535.Analog_Days">Analog Days: The Invention and Impact of the Moog Synthesizer</a>. 
 
-<!--<img src="https://processing.org/tutorials/sound/imgs/56-1.svg" />
--->
 I experimented with the Minim library and piano samples from freesound.org to create harmonic scales, but ultimately decided to use Processing's Sound library instead. I adapted an example from the above-mentioned Sound tutorial as the baseline for the synthesizer. This example used the mouse position to control the frequency of the emitted sine wave, so my next step was to learn how to extract the positions of the index fingers as detected by the Leap Motion.
 
 Luckily, there is a <a href="https://github.com/nok/leap-motion-processing">Leap Motion for Processing library</a> that comes with a few examples. I also found some other tutorials, cited in the source section below. 
