@@ -64,7 +64,7 @@ The theremin works based on using hands to capacitate electrical current. One ha
 
 ## cybernetic loops at play
 
-<img src="cybernetic-loops.jpg" />
+<img src="cybernetic-loops.jpg" width="700px"/>
 
 &nbsp;
 
