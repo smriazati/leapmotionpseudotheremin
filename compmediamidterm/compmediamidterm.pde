@@ -62,6 +62,13 @@ void draw() {
     theGame();
   }
   
+  if(keyPressed) {
+    if ( key == 's' || key == 'S') {
+      
+        background(sketchBG);
+        pointsR.clear();
+    }
+  }
   
 }
 
